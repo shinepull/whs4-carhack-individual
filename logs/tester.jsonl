@@ -1,0 +1,4 @@
+{"timestamp": 1787560637.4585145, "test_name": "extended_session", "request_hex": "10 03", "response_hex": "50 03 00 32 01 f4"}
+{"timestamp": 1787560637.4589412, "test_name": "tester_present", "request_hex": "3e 00", "response_hex": "7e 00"}
+{"timestamp": 1787560637.459212, "test_name": "read_vin", "request_hex": "22 f1 90", "response_hex": "62 f1 90 54 45 53 54 56 49 4e 31 32 33 34 35 36 37 38 39"}
+{"timestamp": 1787560637.459344, "test_name": "unsupported_service", "request_hex": "99 00", "response_hex": "7f 99 11"}

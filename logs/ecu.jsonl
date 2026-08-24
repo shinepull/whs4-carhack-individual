@@ -1,0 +1,8 @@
+{"timestamp": 1787560637.4582717, "event": "request", "payload_hex": "10 03"}
+{"timestamp": 1787560637.4584708, "event": "response", "payload_hex": "50 03 00 32 01 f4"}
+{"timestamp": 1787560637.4587603, "event": "request", "payload_hex": "3e 00"}
+{"timestamp": 1787560637.458876, "event": "response", "payload_hex": "7e 00"}
+{"timestamp": 1787560637.4590864, "event": "request", "payload_hex": "22 f1 90"}
+{"timestamp": 1787560637.459155, "event": "response", "payload_hex": "62 f1 90 54 45 53 54 56 49 4e 31 32 33 34 35 36 37 38 39"}
+{"timestamp": 1787560637.4593053, "event": "request", "payload_hex": "99 00"}
+{"timestamp": 1787560637.4594383, "event": "response", "payload_hex": "7f 99 11"}
