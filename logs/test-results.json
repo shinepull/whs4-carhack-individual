@@ -1,0 +1,50 @@
+[
+  {
+    "id": "DIAG-FUNC-001",
+    "category": "baseline",
+    "asset": "Diagnostic session state",
+    "threat_scenario": "Diagnostic session transition is not handled correctly",
+    "cybersecurity_goal": "The ECU shall return a valid response to a supported session request.",
+    "request_hex": "10 03",
+    "expected_response_prefix": "50 03",
+    "timestamp": 1787580004.1886172,
+    "actual_response": "50 03 00 32 01 F4",
+    "verdict": "PASS"
+  },
+  {
+    "id": "DIAG-FUNC-002",
+    "category": "baseline",
+    "asset": "Diagnostic communication availability",
+    "threat_scenario": "Tester presence request is not processed correctly",
+    "cybersecurity_goal": "The ECU shall maintain diagnostic communication for supported tester requests.",
+    "request_hex": "3E 00",
+    "expected_response_prefix": "7E 00",
+    "timestamp": 1787580004.1895802,
+    "actual_response": "7E 00",
+    "verdict": "PASS"
+  },
+  {
+    "id": "DIAG-FUNC-003",
+    "category": "baseline",
+    "asset": "Vehicle identification data",
+    "threat_scenario": "A permitted diagnostic identifier read request is processed incorrectly",
+    "cybersecurity_goal": "The ECU shall return the expected data format for an allowed DID.",
+    "request_hex": "22 F1 90",
+    "expected_response_prefix": "62 F1 90",
+    "timestamp": 1787580004.189741,
+    "actual_response": "62 F1 90 54 45 53 54 56 49 4E 31 32 33 34 35 36 37 38 39",
+    "verdict": "PASS"
+  },
+  {
+    "id": "DIAG-SEC-001",
+    "category": "security",
+    "asset": "ECU diagnostic service interface",
+    "threat_scenario": "An unsupported diagnostic service request may cause undefined ECU behavior.",
+    "cybersecurity_goal": "Unsupported diagnostic services shall be rejected with a defined negative response.",
+    "request_hex": "99 00",
+    "expected_response_prefix": "7F 99 11",
+    "timestamp": 1787580004.1899166,
+    "actual_response": "7F 99 11",
+    "verdict": "PASS"
+  }
+]

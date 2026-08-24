@@ -1,1 +1,2 @@
 can-isotp==2.0.7
+PyYAML==6.0.3
